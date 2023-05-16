@@ -4,9 +4,15 @@ import 'package:uuid/uuid.dart';
 
 final formatter = DateFormat.yMd();
 
+//here we create a variable to format date in the form of y m d
+
 const uuid = Uuid();
 
+// here uuid is used to create seperate id for each
+
 enum Category { food, travel, leisure, work }
+
+// where set of predefined values exist
 
 const categoryIcons = {
   Category.food: Icons.lunch_dining,
