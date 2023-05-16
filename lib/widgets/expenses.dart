@@ -67,7 +67,7 @@ class _ExpensesState extends State<Expenses> {
       child: Text('No expense found Start Adding Some'),
     );
     if (_registeredExpenses.isNotEmpty) {
-      ExpensesList(
+      mainContent = ExpensesList(
         expenses: _registeredExpenses,
         onRemoveExpense: _removeExpense,
       );
